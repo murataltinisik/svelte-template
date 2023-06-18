@@ -65,7 +65,7 @@
         </div>
 
         <!-- PROFILE FORM -->
-        <div class="profile-form flex items-center justify-center">
+        <div class="profile-form">
             <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
                 <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
                     <div class="lg:col-span-3">
@@ -104,6 +104,10 @@
                     </div>
                 </div>
             </div>
+
+            <button type="button" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+                Delete Account
+            </button>
         </div>
     </div>
 
